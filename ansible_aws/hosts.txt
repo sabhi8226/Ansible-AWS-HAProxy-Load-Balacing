@@ -1,0 +1,9 @@
+[web]
+3.7.70.174       ansible_ssh_user=ec2-user   ansible_ssh_private_key_file=/root/ansible_aws/keynew.pem
+13.233.199.96    ansible_ssh_user=ec2-user   ansible_ssh_private_key_file=/root/ansible_aws/keynew.pem
+
+
+[lb]
+13.233.246.65    ansible_ssh_user=ec2-user   ansible_ssh_private_key_file=/root/ansible_aws/keynew.pem
+
+
