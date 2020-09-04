@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:  
+  - debug: 
+       var: groups['web']
+
+  - template: 
+        src: "my.j2"
+        dest: "my.txt"
